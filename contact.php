@@ -7,6 +7,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/big.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
      <!-- jQuery -->
      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
      <!-- MenuMaker Plugin -->
@@ -16,7 +17,8 @@
     <script src="js/script.js"></script>
  </head>
  <body>
-     
+     <!-- A wrapper can be used to contain the web page -->
+     <div class="wrapper">
      <header>
          <h1>Web Developer Examples and Resources by Vu Nguyen</h1>
          <nav id="cssmenu">
@@ -45,26 +47,15 @@
             </nav>
            </header>
         
-     <!-- START LEFT COLUMN -->
-       <section>
-           <h2 class="subheader">Welcome</h2>
-            <p>Provide an introduction to this BIG website and explain the web developer examples (pages) you've created for this website.</p>
-             <p> To interview for a web job, thoughtfully contribute to a web team, and provide guidance for web clients, it's vital that we keep learning to stay on top of current and coming web topics and coding practices. Describe three or more ways for you to grow and maintain your web knowledge and skills.</p>
+
+       <section class="fullwidth">
+           <h2>Contact Vu</h2>
+           <p></p>
        </section>
-       <!-- END LEFT COLUMN -->
-      
-       <!-- START RIGHT COLUMN -->
-       <aside>
-           <h3>My Favorite Web Resources</h3>
-            <ul>
-            <li><a href="https://www.w3schools.com/html/">W3 Schools</a></li>
-            <li><a href="https://www.codecademy.com/learn/learn-html">Code Academy</a></li>
-            <li><a href="https://html.com/">HTML Tutorial</a></li>
-            </ul>
-       </aside>
-       <!-- END RIGHT COLUMN -->
+ 
+    
      <footer>
       <p><small>&copy; 2020 by <a href="contact.php">Vu Nguyen</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
-    </body>
+         </body>
 </html>
